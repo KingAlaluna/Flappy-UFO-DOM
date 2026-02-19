@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no">
+  <title>Flappy UFO DOM</title>
+  <!--стилі-->
+  <link rel="stylesheet" href="style.css">
+  
+  <!--шрифти-->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+  <h1 id="text-orientation">Будь ласка включіть альбомну орієнтацію</h1>
+  
+  <div id="game-scene">
+    <h2 class="score" id="score">Очки: 0</h2>
+    <h2 class="score" id="record">Рекорд: 0</h2>
+    <div id="ufo"></div>
+    
+    <div id="game-over">
+      <h1 class="text-1">Кінець</h1>
+      <h2 class="text-1" id="over-score">Очки: 0</h2>
+      <h2 class="text-1" id="over-record">Новий рекорд: Ні</h2>
+    </div>
+    
+    <div id="container-pillar"></div>
+  </div>
+  <!--логіка-->
+  <script src="gameSceen.js"></script>
+</body>
+</html>
